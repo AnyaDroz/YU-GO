@@ -1,0 +1,89 @@
+{
+  "primary": {
+    "value": "#1C1A6B",
+    "type": "color"
+  },
+  "secondary": {
+    "value": "#84CBF2",
+    "type": "color"
+  },
+  "interface": {
+    "dark": {
+      "value": "#8D8CB5",
+      "type": "color"
+    },
+    "light": {
+      "value": "#B3B3CE",
+      "type": "color"
+    }
+  },
+  "H1": {
+    "value": {
+      "fontFamily": "Unica One",
+      "fontWeight": 400,
+      "lineHeight": "130%",
+      "fontSize": "48px"
+    },
+    "type": "typography"
+  },
+  "H2": {
+    "value": {
+      "fontFamily": "Unica One",
+      "lineHeight": "130%",
+      "fontSize": "38px",
+      "fontWeight": 400
+    },
+    "type": "typography"
+  },
+  "LABEL": {
+    "value": {
+      "fontFamily": "Open Sans",
+      "fontWeight": 800,
+      "lineHeight": "100%",
+      "fontSize": "16px"
+    },
+    "type": "typography"
+  },
+  "SMALL LABEL": {
+    "value": {
+      "fontFamily": "Open Sans",
+      "fontWeight": 400,
+      "lineHeight": "100%",
+      "fontSize": "13px"
+    },
+    "type": "typography"
+  },
+  "PARAGRAPH": {
+    "value": {
+      "fontFamily": "Open Sans",
+      "fontWeight": 400,
+      "lineHeight": "130%",
+      "fontSize": "16px"
+    },
+    "type": "typography"
+  },
+  "background": {
+    "value": "#F2F5F5",
+    "type": "color"
+  },
+  "layer": {
+    "background": {
+      "value": "#E7EAEE",
+      "type": "color"
+    }
+  },
+  "text": {
+    "header": {
+      "value": {
+        "typography": {
+          "fontFamily": "Unica One",
+          "fontWeight": 400,
+          "lineHeight": "130%",
+          "fontSize": "48px"
+        },
+        "fill": "#1C1A6B"
+      },
+      "type": "composition"
+    }
+  }
+}

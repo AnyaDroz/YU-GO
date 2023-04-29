@@ -4,14 +4,14 @@ const StyleDictionary = require('style-dictionary');
 registerTransforms(StyleDictionary);
 
 const sd = StyleDictionary.extend({
-  source: ['**/*.tokens.json'],
+  source: ['**/tokens/DARK.json'],
   platforms: {
     js: {
       transformGroup: 'tokens-studio',
       buildPath: 'build/js/',
       files: [
         {
-          destination: 'variables.js',
+          destination: 'DARK.js',
           format: 'javascript/es6',
         },
       ],
@@ -35,7 +35,7 @@ const sd = StyleDictionary.extend({
       buildPath: 'build/css/',
       files: [
         {
-          destination: 'variables.css',
+          destination: 'DARK.css',
           format: 'css/variables',
         },
       ],

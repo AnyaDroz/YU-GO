@@ -1,0 +1,75 @@
+{
+  "primary": {
+    "value": "#84CBF2",
+    "type": "color"
+  },
+  "secondary": {
+    "value": "#8D8CB5",
+    "type": "color"
+  },
+  "interface": {
+    "dark": {
+      "value": "#1A2930",
+      "type": "color"
+    },
+    "light": {
+      "value": "#D6EEFB",
+      "type": "color"
+    }
+  },
+  "H1": {
+    "value": {
+      "fontFamily": "Unica One",
+      "fontWeight": 400,
+      "lineHeight": "130%",
+      "fontSize": "48px"
+    },
+    "type": "typography"
+  },
+  "H2": {
+    "value": {
+      "fontFamily": "Unica One",
+      "lineHeight": "130%",
+      "fontSize": "38px",
+      "fontWeight": 400
+    },
+    "type": "typography"
+  },
+  "LABEL": {
+    "value": {
+      "fontFamily": "Open Sans",
+      "fontWeight": 800,
+      "lineHeight": "100%",
+      "fontSize": "16px"
+    },
+    "type": "typography"
+  },
+  "SMALL LABEL": {
+    "value": {
+      "fontFamily": "Open Sans",
+      "fontWeight": 400,
+      "lineHeight": "100%",
+      "fontSize": "13px"
+    },
+    "type": "typography"
+  },
+  "PARAGRAPH": {
+    "value": {
+      "fontFamily": "Open Sans",
+      "fontWeight": 400,
+      "lineHeight": "130%",
+      "fontSize": "16px"
+    },
+    "type": "typography"
+  },
+  "background": {
+    "value": "#0A0A0A",
+    "type": "color"
+  },
+  "layer": {
+    "background": {
+      "value": "#161D21",
+      "type": "color"
+    }
+  }
+}
