@@ -1,0 +1,73 @@
+/**
+ * Do not edit directly
+ * Generated on Sat, 29 Apr 2023 08:32:00 GMT
+ */
+
+:root {
+  --sd13: 13px;
+  --sd16: 16px;
+  --sd20: 20px;
+  --sd25: 25px;
+  --sd31: 31px;
+  --sd38: 38px;
+  --sd48: 48px;
+  --sd60: 60px;
+  --sdBlue5: #E7EAEE;
+  --sdBlue100: #D2D1E1;
+  --sdBlue200: #B3B3CE;
+  --sdBlue300: #8D8CB5;
+  --sdBlue400: #68669C;
+  --sdBlue500: #424084;
+  --sdBlue600: #1C1A6B;
+  --sdBlue700: #171659;
+  --sdBlue800: #131147;
+  --sdBlue900: #131147;
+  --sdBlue1000: #090924;
+  --sdBlue1100: #060515;
+  --sdSky50: #E6F5FC;
+  --sdSky100: #D6EEFB;
+  --sdSky200: #C1E5F8;
+  --sdSky300: #ADDCF6;
+  --sdSky400: #98D4F4;
+  --sdSky500: #84CBF2;
+  --sdSky600: #6EA9CA;
+  --sdSky700: #5887A1;
+  --sdSky800: #426679;
+  --sdSky900: #2C4451;
+  --sdSky1000: #1A2930;
+  --sdSky1100: #161D21;
+  --sdUnicaOne: Unica One;
+  --sdOpenSans: Open Sans;
+  --sd150: 1.5;
+  --sd130: 1.3;
+  --sd100: 1;
+  --sdDropShadow: inset 0 4px 4px 0 rgba(0,0,0,0.25);
+  --sdGrey: #F2F5F5;
+  --sdDark: #0A0A0A;
+  --sdPrimary: #84CBF2;
+  --sdSecondary: #8D8CB5;
+  --sdInterfaceDark: #1A2930;
+  --sdInterfaceLight: #D6EEFB;
+  --sdH1: 400 48px/1.3 Unica One;
+  --sdH2: 400 38px/1.3 Unica One;
+  --sdLabel: 800 16px/1 Open Sans;
+  --sdSmallLabel: 400 13px/1 Open Sans;
+  --sdParagraph: 400 16px/1.3 Open Sans;
+  --sdBackground: #0A0A0A;
+  --sdLayerBackground: #161D21;
+  --sdTextParagraphTypography: 400 16px/1.3 Open Sans;
+  --sdTextParagraphFill: #84CBF2;
+  --sdTextChartLabelTypography: 400 13px/1 Open Sans;
+  --sdTextChartLabelFill: #84CBF2;
+  --sdTextHeaderTypography: 400 48px/1.3 Unica One;
+  --sdTextHeaderFill: #84CBF2;
+  --sdTextLabelTypography: 800 16px/1 Open Sans;
+  --sdTextLabelFill: #84CBF2;
+  --sdColourLayerBackgroundFill: #D6EEFB;
+  --sdColourChartPrimaryFill: #84CBF2;
+  --sdColourChartSecondaryFill: #8D8CB5;
+  --sdColourMainBackgroundFill: #0A0A0A;
+  --sdColourIconFill: #84CBF2;
+  --sdColourPaginationActiveFill: #84CBF2;
+  --sdColourPaginationHoverFill: #8D8CB5;
+}
