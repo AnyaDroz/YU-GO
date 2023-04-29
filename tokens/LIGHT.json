@@ -72,8 +72,34 @@
       "type": "color"
     }
   },
-  "text": {
-    "header": {
+  "TEXT": {
+    "PARAGRAPH": {
+      "value": {
+        "typography": {
+          "fontFamily": "Open Sans",
+          "fontWeight": 400,
+          "lineHeight": "130%",
+          "fontSize": "16px"
+        },
+        "fill": "#1C1A6B"
+      },
+      "type": "composition"
+    },
+    "CHART": {
+      "LABEL": {
+        "value": {
+          "typography": {
+            "fontFamily": "Open Sans",
+            "fontWeight": 400,
+            "lineHeight": "100%",
+            "fontSize": "13px"
+          },
+          "fill": "#1C1A6B"
+        },
+        "type": "composition"
+      }
+    },
+    "HEADER": {
       "value": {
         "typography": {
           "fontFamily": "Unica One",
@@ -84,6 +110,70 @@
         "fill": "#1C1A6B"
       },
       "type": "composition"
+    },
+    "LABEL": {
+      "value": {
+        "typography": {
+          "fontFamily": "Open Sans",
+          "fontWeight": 800,
+          "lineHeight": "100%",
+          "fontSize": "16px"
+        },
+        "fill": "#1C1A6B"
+      },
+      "type": "composition"
+    }
+  },
+  "COLOUR": {
+    "LAYER": {
+      "BACKGROUND": {
+        "value": {
+          "fill": "#B3B3CE"
+        },
+        "type": "composition"
+      }
+    },
+    "CHART": {
+      "PRIMARY": {
+        "value": {
+          "fill": "#1C1A6B"
+        },
+        "type": "composition"
+      },
+      "SECONDARY": {
+        "value": {
+          "fill": "#84CBF2"
+        },
+        "type": "composition"
+      }
+    },
+    "MAIN": {
+      "BACKGROUND": {
+        "value": {
+          "fill": "#F2F5F5"
+        },
+        "type": "composition"
+      }
+    },
+    "ICON": {
+      "value": {
+        "fill": "#1C1A6B"
+      },
+      "type": "composition"
+    },
+    "PAGINATION": {
+      "ACTIVE": {
+        "value": {
+          "fill": "#1C1A6B"
+        },
+        "type": "composition"
+      },
+      "HOVER": {
+        "value": {
+          "fill": "#84CBF2"
+        },
+        "type": "composition"
+      }
     }
   }
 }
