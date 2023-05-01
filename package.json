@@ -20,8 +20,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "make-styleable-core":"npx token-transformer tokens.json tokens/CORE.json CORE",
+    "make-styleable-light": "npx token-transformer tokens.json tokens/LIGHT.json CORE,LIGHT CORE --expandTypography=true --expandComposition=true",
+    "make-styleable-dark": "npx token-transformer tokens.json tokens/DARK.json CORE,DARK CORE --expandTypography=true --expandComposition=true",
+    "make-styleable": "npm run make-styleable-core && npm run make-styleable-light && npm run make-styleable-dark",
+    "transform": "node build.js",
+    "start": "npm run make-styleable && npm run transform && react-scripts start",
+    "build": "npm run make-styleable && npm run transform && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

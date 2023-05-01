@@ -3,22 +3,22 @@ const StyleDictionary = require('style-dictionary');
 registerTransforms(StyleDictionary);
 
 
-StyleDictionary.registerTransform({
-	type: 'value',
-	transitive: true,
-	name: 'test',
-  format: "JSON/flat",
-	matcher: ({ type }) => {
-		return ['typography', 'composition'].includes(type);
-	},
-	transformer: ({ value, name, type}) => {
+// StyleDictionary.registerTransform({
+// 	type: 'value',
+// 	transitive: true,
+// 	name: 'test',
+//   format: "JSON/flat",
+// 	matcher: ({ type }) => {
+// 		return ['typography', 'composition'].includes(type);
+// 	},
+// 	transformer: ({ value, name, type}) => {
 
-return JSON.stringify(value.Object);
+// return JSON.stringify(value.Object);
 
     
-	},
+// 	},
 
-});
+// });
 
 
 
@@ -143,7 +143,8 @@ const sdDark = StyleDictionary.extend({
         'ts/color/css/hexrgba',
         'ts/color/modifiers',
         'name/cti/kebab',
-        'test',
+        // 'test',
+        
         
         
       ],
