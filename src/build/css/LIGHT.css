@@ -1,10 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Tue, 02 May 2023 07:56:34 GMT
+ * Generated on Tue, 02 May 2023 08:02:28 GMT
  */
 
 :root {
-  --primary: #1C1A6B;
+  --primary: #c900d2;
   --secondary: #84CBF2;
   --interface-dark: #8D8CB5;
   --interface-light: #B3B3CE;
@@ -34,27 +34,27 @@
   --text-paragraph-typography-font-weight: 400;
   --text-paragraph-typography-line-height: 130%;
   --text-paragraph-typography-font-size: 16px;
-  --text-paragraph-fill: #1C1A6B;
+  --text-paragraph-fill: #c900d2;
   --text-chart-label-typography-font-family: Open Sans;
   --text-chart-label-typography-font-weight: 400;
   --text-chart-label-typography-line-height: 100%;
   --text-chart-label-typography-font-size: 13px;
-  --text-chart-label-fill: #1C1A6B;
+  --text-chart-label-fill: #c900d2;
   --text-header-typography-font-family: Unica One;
   --text-header-typography-font-weight: 400;
   --text-header-typography-line-height: 130%;
   --text-header-typography-font-size: 48px;
-  --text-header-fill: #1C1A6B;
+  --text-header-fill: #c900d2;
   --text-label-typography-font-family: Open Sans;
   --text-label-typography-font-weight: 800;
   --text-label-typography-line-height: 100%;
   --text-label-typography-font-size: 16px;
-  --text-label-fill: #1C1A6B;
+  --text-label-fill: #c900d2;
   --colour-layer-background-fill: #B3B3CE;
-  --colour-chart-primary-fill: #1C1A6B;
+  --colour-chart-primary-fill: #c900d2;
   --colour-chart-secondary-fill: #84CBF2;
   --colour-main-background-fill: #F2F5F5;
-  --colour-icon-fill: #1C1A6B;
-  --colour-pagination-active-fill: #1C1A6B;
+  --colour-icon-fill: #c900d2;
+  --colour-pagination-active-fill: #c900d2;
   --colour-pagination-hover-fill: #84CBF2;
 }
