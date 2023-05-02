@@ -1,6 +1,6 @@
 {
   "primary": {
-    "value": "#c900d2",
+    "value": "#1C1A6B",
     "type": "color"
   },
   "secondary": {
@@ -138,7 +138,7 @@
         }
       },
       "fill": {
-        "value": "#c900d2",
+        "value": "#1C1A6B",
         "type": "fill"
       }
     },
@@ -163,7 +163,7 @@
           }
         },
         "fill": {
-          "value": "#c900d2",
+          "value": "#1C1A6B",
           "type": "fill"
         }
       }
@@ -188,7 +188,7 @@
         }
       },
       "fill": {
-        "value": "#c900d2",
+        "value": "#1C1A6B",
         "type": "fill"
       }
     },
@@ -212,7 +212,7 @@
         }
       },
       "fill": {
-        "value": "#c900d2",
+        "value": "#1C1A6B",
         "type": "fill"
       }
     }
@@ -229,7 +229,7 @@
     "CHART": {
       "PRIMARY": {
         "fill": {
-          "value": "#c900d2",
+          "value": "#1C1A6B",
           "type": "fill"
         }
       },
@@ -250,14 +250,14 @@
     },
     "ICON": {
       "fill": {
-        "value": "#c900d2",
+        "value": "#1C1A6B",
         "type": "fill"
       }
     },
     "PAGINATION": {
       "ACTIVE": {
         "fill": {
-          "value": "#c900d2",
+          "value": "#1C1A6B",
           "type": "fill"
         }
       },
