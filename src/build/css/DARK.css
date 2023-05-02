@@ -1,0 +1,60 @@
+/**
+ * Do not edit directly
+ * Generated on Tue, 02 May 2023 07:56:38 GMT
+ */
+
+:root {
+  --primary: #84CBF2;
+  --secondary: #8D8CB5;
+  --interface-dark: #1A2930;
+  --interface-light: #D6EEFB;
+  --h1-font-family: Unica One;
+  --h1-font-weight: 400;
+  --h1-line-height: 130%;
+  --h1-font-size: 48px;
+  --h2-font-family: Unica One;
+  --h2-line-height: 130%;
+  --h2-font-size: 38px;
+  --h2-font-weight: 400;
+  --label-font-family: Open Sans;
+  --label-font-weight: 800;
+  --label-line-height: 100%;
+  --label-font-size: 16px;
+  --small-label-font-family: Open Sans;
+  --small-label-font-weight: 400;
+  --small-label-line-height: 100%;
+  --small-label-font-size: 13px;
+  --paragraph-font-family: Open Sans;
+  --paragraph-font-weight: 400;
+  --paragraph-line-height: 130%;
+  --paragraph-font-size: 16px;
+  --background: #0A0A0A;
+  --layer-background: #161D21;
+  --text-paragraph-typography-font-family: Open Sans;
+  --text-paragraph-typography-font-weight: 400;
+  --text-paragraph-typography-line-height: 130%;
+  --text-paragraph-typography-font-size: 16px;
+  --text-paragraph-fill: #84CBF2;
+  --text-chart-label-typography-font-family: Open Sans;
+  --text-chart-label-typography-font-weight: 400;
+  --text-chart-label-typography-line-height: 100%;
+  --text-chart-label-typography-font-size: 13px;
+  --text-chart-label-fill: #84CBF2;
+  --text-header-typography-font-family: Unica One;
+  --text-header-typography-font-weight: 400;
+  --text-header-typography-line-height: 130%;
+  --text-header-typography-font-size: 48px;
+  --text-header-fill: #84CBF2;
+  --text-label-typography-font-family: Open Sans;
+  --text-label-typography-font-weight: 800;
+  --text-label-typography-line-height: 100%;
+  --text-label-typography-font-size: 16px;
+  --text-label-fill: #84CBF2;
+  --colour-layer-background-fill: #D6EEFB;
+  --colour-chart-primary-fill: #84CBF2;
+  --colour-chart-secondary-fill: #8D8CB5;
+  --colour-main-background-fill: #0A0A0A;
+  --colour-icon-fill: #84CBF2;
+  --colour-pagination-active-fill: #84CBF2;
+  --colour-pagination-hover-fill: #8D8CB5;
+}
