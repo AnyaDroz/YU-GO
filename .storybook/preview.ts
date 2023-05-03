@@ -1,5 +1,7 @@
 import type { Preview } from "@storybook/react";
 import "../src/index.css";
+// .storybook/preview.tsx
+import React from "react";
 
 const preview: Preview = {
 	parameters: {
@@ -9,6 +11,13 @@ const preview: Preview = {
 				color: /(background|color)$/i,
 				date: /Date$/,
 			},
+		},
+		themes: {
+			default: "light",
+			list: [
+				{ name: "light", theme: ["light"], color: "#00aced" },
+				{ name: "dark", theme: ["dark"], color: "#00aced" },
+			],
 		},
 	},
 };

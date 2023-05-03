@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import "../build/css/LIGHT.css";
 
 export const StyledH1 = styled.div`
 	color: var(--primary);
