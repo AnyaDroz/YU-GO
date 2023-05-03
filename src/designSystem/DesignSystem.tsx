@@ -1,5 +1,3 @@
-import React from "react";
-
 import ThemeSwitch from "../ThemeSwitch/ThemeSwitch";
 import { useState } from "react";
 
@@ -18,15 +16,15 @@ import {
 	StyledContainer,
 } from "./DesignSystem.styles";
 
-const DesignSystem = () => {
-	const [theme, setTheme] = useState<string>("light");
-	const toggleTheme = () => {
-		if (theme === "light") {
-			setTheme("dark");
-		} else if (theme === "dark") {
-			setTheme("light");
-		}
-	};
+const DesignSystem = ({ theme }: any) => {
+	// const [theme, setTheme] = useState<string>("light");
+	// const toggleTheme = () => {
+	// 	if (theme === "light") {
+	// 		setTheme("dark");
+	// 	} else if (theme === "dark") {
+	// 		setTheme("light");
+	// 	}
+	// };
 	return (
 		<div>
 			{/* <button onClick={toggleTheme}>CLICK ME</button> */}

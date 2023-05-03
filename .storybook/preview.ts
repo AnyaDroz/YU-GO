@@ -1,8 +1,6 @@
 import type { Preview } from "@storybook/react";
 import "../src/index.css";
 
-import { withThemes } from "storybook-addon-themes/react"; // <- or your storybook framework
-
 const preview: Preview = {
 	parameters: {
 		actions: { argTypesRegex: "^on[A-Z].*" },
@@ -18,6 +16,7 @@ const preview: Preview = {
 				{ name: "light", theme: ["light"], color: "#00aced" },
 				{ name: "dark", theme: ["dark"], color: "#00aced" },
 			],
+			onChange() {},
 		},
 	},
 };

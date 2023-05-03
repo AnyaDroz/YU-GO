@@ -1,14 +1,22 @@
 import type { Meta, StoryObj } from "@storybook/react";
+import { string } from "prop-types";
+import { options } from "style-dictionary";
 
 import DesignSystem from "./DesignSystem";
 
 const meta: Meta = {
 	title: "Design System",
 	component: DesignSystem,
-	argTypes: {},
+	argTypes: {
+		theme: string,
+	},
 };
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+export const Default: Story = {
+	args: {
+		theme: "light",
+	},
+};
