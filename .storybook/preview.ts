@@ -1,7 +1,7 @@
 import type { Preview } from "@storybook/react";
 import "../src/index.css";
-// .storybook/preview.tsx
-import React from "react";
+
+import { withThemes } from "storybook-addon-themes/react"; // <- or your storybook framework
 
 const preview: Preview = {
 	parameters: {

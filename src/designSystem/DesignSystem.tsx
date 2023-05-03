@@ -29,7 +29,7 @@ const DesignSystem = () => {
 	};
 	return (
 		<div>
-			<button onClick={toggleTheme}>CLICK ME</button>
+			{/* <button onClick={toggleTheme}>CLICK ME</button> */}
 			<ThemeSwitch theme={theme}>
 				<StyledContainer>
 					<StyledH1>H1</StyledH1>
