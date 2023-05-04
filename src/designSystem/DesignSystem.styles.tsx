@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import * as theme from "../js/CORE";
 
 export const StyledH1 = styled.div`
 	color: var(--primary);
@@ -68,7 +69,7 @@ export const StyledInterfaceLight = styled.div`
 export const StyledBackground = styled.div`
 	height: 100px;
 	width: 100px;
-	background-color: var(--background);
+	background-color: ${theme.sky100};
 	border: 1px solid var(--primary);
 `;
 

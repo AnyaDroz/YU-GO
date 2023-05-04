@@ -36,13 +36,3 @@
 		transform: rotate(360deg);
 	}
 }
-
-@font-face {
-	font-family: Unica One;
-	src: url(../public/assets/fonts/UnicaOne-Regular.ttf);
-}
-
-@font-face {
-	font-family: Open Sans;
-	src: url(../public/assets/fonts/OpenSans.ttf);
-}
