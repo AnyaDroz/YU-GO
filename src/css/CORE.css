@@ -1,17 +1,17 @@
 /**
  * Do not edit directly
- * Generated on Tue, 02 May 2023 08:02:25 GMT
+ * Generated on Thu, 04 May 2023 10:16:54 GMT
  */
 
 :root {
-  --13: 13px;
-  --16: 16px;
-  --20: 20px;
-  --25: 25px;
-  --31: 31px;
-  --38: 38px;
-  --48: 48px;
-  --60: 60px;
+  --s13: 13px;
+  --s16: 16px;
+  --s20: 20px;
+  --s25: 25px;
+  --s31: 31px;
+  --s38: 38px;
+  --s48: 48px;
+  --s60: 60px;
   --blue-5: #E7EAEE;
   --blue-100: #D2D1E1;
   --blue-200: #B3B3CE;
@@ -38,9 +38,9 @@
   --sky-1100: #161D21;
   --unica-one: Unica One;
   --open-sans: Open Sans;
-  --150: 1.5;
-  --130: 1.3;
-  --100: 1;
+  --s150: 1.5;
+  --s130: 1.3;
+  --s100: 1;
   --drop-shadow: inset 0 4px 4px 0 #00000040;
   --grey: #F2F5F5;
   --dark: #0A0A0A;

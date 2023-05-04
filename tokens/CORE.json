@@ -1,33 +1,33 @@
 {
-  "13": {
+  "s13": {
     "value": "13px",
     "type": "fontSizes"
   },
-  "16": {
+  "s16": {
     "value": "16px",
     "type": "fontSizes"
   },
-  "20": {
+  "s20": {
     "value": "20px",
     "type": "fontSizes"
   },
-  "25": {
+  "s25": {
     "value": "25px",
     "type": "fontSizes"
   },
-  "31": {
+  "s31": {
     "value": "31px",
     "type": "fontSizes"
   },
-  "38": {
+  "s38": {
     "value": "38px",
     "type": "fontSizes"
   },
-  "48": {
+  "s48": {
     "value": "48px",
     "type": "fontSizes"
   },
-  "60": {
+  "s60": {
     "value": "60px",
     "type": "fontSizes"
   },
@@ -139,15 +139,15 @@
     "value": "Open Sans",
     "type": "fontFamilies"
   },
-  "150%": {
+  "s150": {
     "value": "150%",
     "type": "lineHeights"
   },
-  "130%": {
+  "s130": {
     "value": "130%",
     "type": "lineHeights"
   },
-  "100%": {
+  "s100": {
     "value": "100%",
     "type": "lineHeights"
   },

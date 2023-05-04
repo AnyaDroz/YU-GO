@@ -1,0 +1,47 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 04 May 2023 10:16:57 GMT
+ */
+
+:root {
+  --s13: 13px;
+  --s16: 16px;
+  --s20: 20px;
+  --s25: 25px;
+  --s31: 31px;
+  --s38: 38px;
+  --s48: 48px;
+  --s60: 60px;
+  --blue-5: #E7EAEE;
+  --blue-100: #D2D1E1;
+  --blue-200: #B3B3CE;
+  --blue-300: #8D8CB5;
+  --blue-400: #68669C;
+  --blue-500: #424084;
+  --blue-600: #1C1A6B;
+  --blue-700: #171659;
+  --blue-800: #131147;
+  --blue-900: #131147;
+  --blue-1000: #090924;
+  --blue-1100: #060515;
+  --sky-50: #E6F5FC;
+  --sky-100: #D6EEFB;
+  --sky-200: #C1E5F8;
+  --sky-300: #ADDCF6;
+  --sky-400: #98D4F4;
+  --sky-500: #84CBF2;
+  --sky-600: #6EA9CA;
+  --sky-700: #5887A1;
+  --sky-800: #426679;
+  --sky-900: #2C4451;
+  --sky-1000: #1A2930;
+  --sky-1100: #161D21;
+  --unica-one: Unica One;
+  --open-sans: Open Sans;
+  --s150: 1.5;
+  --s130: 1.3;
+  --s100: 1;
+  --drop-shadow: inset 0 4px 4px 0 #00000040;
+  --grey: #F2F5F5;
+  --dark: #0A0A0A;
+}
