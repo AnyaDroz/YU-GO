@@ -45,49 +45,6 @@ const sd = StyleDictionary.extend({
 sd.cleanAllPlatforms();
 sd.buildAllPlatforms();
 
-const sdLight = StyleDictionary.extend({
-	source: ["**/tokens/CORE.json"],
-	platforms: {
-		js: {
-			transformGroup: "tokens-studio",
-			buildPath: "src/js/",
-			files: [
-				{
-					destination: "LIGHT.js",
-					format: "javascript/es6",
-				},
-			],
-		},
-		css: {
-			transforms: [
-				"ts/descriptionToComment",
-				"ts/size/px",
-				"ts/opacity",
-				"ts/size/lineheight",
-				"ts/type/fontWeight",
-				"ts/resolveMath",
-				"ts/size/css/letterspacing",
-				"ts/typography/css/shorthand",
-				"ts/border/css/shorthand",
-				"ts/shadow/css/shorthand",
-				"ts/color/css/hexrgba",
-				"ts/color/modifiers",
-				"name/cti/kebab",
-			],
-			buildPath: "src/css/",
-			files: [
-				{
-					destination: "LIGHT.css",
-					format: "css/variables",
-				},
-			],
-		},
-	},
-});
-
-sdLight.cleanAllPlatforms();
-sdLight.buildAllPlatforms();
-
 const sdDark = StyleDictionary.extend({
 	source: ["**/tokens/DARK.json"],
 	platforms: {
@@ -130,3 +87,46 @@ const sdDark = StyleDictionary.extend({
 
 sdDark.cleanAllPlatforms();
 sdDark.buildAllPlatforms();
+
+const sdLight = StyleDictionary.extend({
+	source: ["**/tokens/LIGHT.json"],
+	platforms: {
+		js: {
+			transformGroup: "tokens-studio",
+			buildPath: "src/js/",
+			files: [
+				{
+					destination: "LIGHT.js",
+					format: "javascript/es6",
+				},
+			],
+		},
+		css: {
+			transforms: [
+				"ts/descriptionToComment",
+				"ts/size/px",
+				"ts/opacity",
+				"ts/size/lineheight",
+				"ts/type/fontWeight",
+				"ts/resolveMath",
+				"ts/size/css/letterspacing",
+				"ts/typography/css/shorthand",
+				"ts/border/css/shorthand",
+				"ts/shadow/css/shorthand",
+				"ts/color/css/hexrgba",
+				"ts/color/modifiers",
+				"name/cti/kebab",
+			],
+			buildPath: "src/css/",
+			files: [
+				{
+					destination: "LIGHT.css",
+					format: "css/variables",
+				},
+			],
+		},
+	},
+});
+
+sdLight.cleanAllPlatforms();
+sdLight.buildAllPlatforms();

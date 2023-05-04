@@ -1,5 +1,6 @@
 import type { Preview } from "@storybook/react";
 import ThemeProvider from "styled-components";
+import "../src/index.css";
 const preview: Preview = {
 	parameters: {
 		actions: { argTypesRegex: "^on[A-Z].*" },

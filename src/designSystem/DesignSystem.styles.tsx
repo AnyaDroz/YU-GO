@@ -36,7 +36,7 @@ export const StyledSmallLabel = styled.div`
 
 export const StyledParagraph = styled.div`
 	color: var(--primary);
-	font-family: var(--small-label-family);
+	font-family: ${(props) => props.theme.unicaOne};
 	font-size: var(--small-label-size);
 	font-weight: var(--small-label-weight);
 	line-height: var(--small-label-height);
