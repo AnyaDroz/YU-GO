@@ -1,1 +1,1 @@
-export * from "./DesignSystem"
+export * from "./DesignSystem";
