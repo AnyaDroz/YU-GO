@@ -20,7 +20,6 @@ import {
 const DesignSystem = () => {
 	return (
 		<div>
-			{/* <ThemeProvider theme={LightTheme}> */}
 			<StyledContainer>
 				<StyledH1>H1</StyledH1>
 				<StyledH2>H2</StyledH2>
@@ -34,7 +33,6 @@ const DesignSystem = () => {
 				<StyledLayerBackground />
 				<StyledBackground />
 			</StyledContainer>
-			{/* </ThemeProvider> */}
 		</div>
 	);
 };
