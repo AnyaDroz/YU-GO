@@ -1,6 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { string } from "prop-types";
-import { options } from "style-dictionary";
 
 import DesignSystem from "./DesignSystem";
 
