@@ -29,7 +29,9 @@
     "start": "npm run make-styleable && npm run transform && react-scripts start",
     "build": "npm run make-styleable && npm run transform && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +52,16 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@storybook/addon-actions": "^7.0.8",
+    "@storybook/addon-essentials": "^7.0.8",
+    "@storybook/addon-interactions": "^7.0.8",
+    "@storybook/addon-links": "^7.0.8",
+    "@storybook/builder-webpack5": "^7.0.8",
+    "@storybook/manager-webpack5": "^6.5.16",
+    "@storybook/react": "^7.0.8",
+    "@storybook/testing-library": "^0.1.0",
+    "babel-loader": "^8.3.0",
     "prettier": "2.8.8"
   }
 }
