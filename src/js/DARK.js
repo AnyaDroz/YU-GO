@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 04 May 2023 15:14:08 GMT
+ * Generated on Fri, 05 May 2023 16:00:17 GMT
  */
 
 export const primary = "#84CBF2";
