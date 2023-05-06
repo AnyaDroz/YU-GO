@@ -15,7 +15,7 @@ const getTheme = (themeName) => {
 
 const withThemeProvider = (Story, context) => {
 	const theme = getTheme(context.globals.theme);
-	console.log(theme);
+	
 	return (
 		<ThemeProvider theme={theme}>
 			<Story />

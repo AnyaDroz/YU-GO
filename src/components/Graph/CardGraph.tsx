@@ -1,8 +1,16 @@
 import React, { Component } from "react";
 import Chart from "react-apexcharts";
-import * as theme from "../../js/DARK.js";
+
+// i hate these class components i have to say
 
 class CardGraph extends Component<{}, { options: object; series: any }> {
+	
+
+	// did you add theme: any ?
+	// i did indeed.
+	//OHHHH
+	// props.theme.whatever
+	// would be great to not use a class component for this if you could work that out
 	constructor(props: any) {
 		super(props);
 
@@ -36,7 +44,7 @@ class CardGraph extends Component<{}, { options: object; series: any }> {
 								{
 									from: 0,
 									to: 100,
-									color: theme.textParagraphFill,
+									color: props.theme.textParagraphFill,
 								},
 							],
 							backgroundBarColors: [],
@@ -81,18 +89,14 @@ class CardGraph extends Component<{}, { options: object; series: any }> {
 
 	render() {
 		return (
-			<div className="app">
-				<div className="row">
-					<div className="mixed-chart">
+			
 						<Chart
 							options={this.state.options}
 							series={this.state.series}
 							type="bar"
 							width="342"
 						/>
-					</div>
-				</div>
-			</div>
+		
 		);
 	}
 }

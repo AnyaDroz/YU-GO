@@ -1,6 +1,5 @@
 import React from "react";
-import * as LightTheme from "../js/LIGHT";
-import { ThemeProvider } from "styled-components";
+
 
 import {
 	StyledH1,
