@@ -1,9 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import ContentInfo from "./ContentInfo";
+
+import GraphComponent from "./GraphComponent";
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta: Meta = {
-	title: "Example/Content Info",
-	component: ContentInfo,
+	title: "Example/Graph Component",
+	component: GraphComponent,
 	argTypes: {
 		state: {
 			options: ["up", "down"],
