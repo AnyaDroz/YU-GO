@@ -1,13 +1,25 @@
-import React from "react";
-import { StyledTextHeader } from "./CardHeader.styles";
+import React, { useState } from "react";
+import Icon from "/public/ARROW/LIGHTDOWN.svg";
+import {
+	StyledTextHeader,
+	StyledCardHeaderContainer,
+} from "./CardHeader.styles";
+import DownArrow from "../Icons/DownArrow/DownArrow";
+import UpArrow from "../Icons/UpArrow/UpArrow";
 type Props = {
-	children: string;
+	text: string;
+	state: string;
 };
 
-const CardHeader = ({ children }: Props) => {
+const CardHeader = ({ text, state }: Props) => {
+	const [Icon, setIcon] = useState<string>("");
+
 	return (
 		<div>
-			<StyledTextHeader>{children}</StyledTextHeader>
+			<StyledCardHeaderContainer>
+				<StyledTextHeader>{text}</StyledTextHeader>
+				{state === "up" ? <UpArrow /> : <DownArrow />}
+			</StyledCardHeaderContainer>
 		</div>
 	);
 };
