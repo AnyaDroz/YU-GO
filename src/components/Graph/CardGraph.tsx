@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import Chart from "react-apexcharts";
 
-// i hate these class components i have to say
+const dataDown = [
+	5, 4, 10, 50, 0, 60, 5, 91, 0, 5, 0, 30, 10, 45, 50, 0, 60, 5, 0, 0, 0, 10, 5,
+	12,
+];
+
+const dataUp = [
+	30, 40, 45, 10, 49, 0, 70, 91, 0, 90, 22, 30, 40, 45, 50, 49, 60, 70, 91, 0,
+	90, 10, 11, 12,
+];
 
 class CardGraph extends Component<{}, { options: object; series: any }> {
-	
-
-	// did you add theme: any ?
-	// i did indeed.
-	//OHHHH
-	// props.theme.whatever
-	// would be great to not use a class component for this if you could work that out
 	constructor(props: any) {
 		super(props);
 
@@ -70,18 +71,57 @@ class CardGraph extends Component<{}, { options: object; series: any }> {
 					animations: {
 						enabled: false,
 					},
+					toolbar: {
+						show: false,
+					},
 				},
 				xaxis: {
-					categories: ["00", "", "", "", "", "", "", "", "", "", ""],
+					categories: [
+						"00",
+						"",
+						"",
+						"",
+						"",
+						"06",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"12",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"18",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"00",
+					],
+					axisTicks: {
+						show: false,
+					},
+					axisBorder: {
+						show: false,
+					},
+
+					labels: {
+						show: true,
+						style: {
+							colors: props.theme.textParagraphFill,
+						},
+						rotate: 0,
+					},
 				},
 			},
 			series: [
 				{
 					name: "series-1",
-					data: [
-						30, 40, 45, 50, 49, 60, 70, 91, 0, 90, 22, 30, 40, 45, 50, 49, 60,
-						70, 91, 0, 90, 22,
-					],
+					data: props.state === "up" ? dataUp : dataDown,
 				},
 			],
 		};
@@ -89,14 +129,12 @@ class CardGraph extends Component<{}, { options: object; series: any }> {
 
 	render() {
 		return (
-			
-						<Chart
-							options={this.state.options}
-							series={this.state.series}
-							type="bar"
-							width="342"
-						/>
-		
+			<Chart
+				options={this.state.options}
+				series={this.state.series}
+				type="bar"
+				width="342"
+			/>
 		);
 	}
 }

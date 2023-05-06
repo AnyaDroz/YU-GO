@@ -19,10 +19,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
 	args: {
-		text: "CARD HEADER",
-		state: "up",
-		labelText: "CONTENT LABEL",
-		contentParagraph:
-			"Lorem ipsum dolor sit amet consectetur. Tortor libero sed nunc ullamcorper. Vulputate sit urna vestibulum fringilla.",
+		state: "down",
 	},
 };

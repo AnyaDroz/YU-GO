@@ -12,8 +12,6 @@ type Props = {
 };
 
 const CardHeader = ({ text, state }: Props) => {
-	const [Icon, setIcon] = useState<string>("");
-
 	return (
 		<div>
 			<StyledCardHeaderContainer>
