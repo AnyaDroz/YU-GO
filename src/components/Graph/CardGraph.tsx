@@ -11,7 +11,10 @@ const dataUp = [
 	90, 10, 11, 12,
 ];
 
-class CardGraph extends Component<{}, { options: object; series: any }> {
+class CardGraph extends Component<
+	{ theme: any; user: string },
+	{ options: object; series: any }
+> {
 	constructor(props: any) {
 		super(props);
 		this.state = {
@@ -125,12 +128,6 @@ class CardGraph extends Component<{}, { options: object; series: any }> {
 			],
 		};
 	}
-
-	// componentWillReceiveProps(nextProps: Readonly<any>, nextContext: any): void {
-	// 	if (nextProps.state !== this.state.state) {
-	// 		this.setState({ state: nextProps.state });
-	// 	}
-	// }
 
 	render() {
 		return (

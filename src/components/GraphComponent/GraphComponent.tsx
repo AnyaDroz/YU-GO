@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import CardGraph from "../Graph/CardGraph";
 import { useTheme } from "styled-components";
 import { StyledGraphContainer } from "./GraphComponent.styles";
+import { ThemeProps } from "styled-components/native";
 
 type Props = {
 	userState: string;

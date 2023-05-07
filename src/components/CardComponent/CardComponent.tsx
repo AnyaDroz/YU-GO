@@ -1,19 +1,39 @@
-import React from "react";
-import CardHeader from "../CardHeader/CardHeader";
-
+import React, { useEffect, useState } from "react";
 import GraphComponent from "../GraphComponent/GraphComponent";
 import ContentInfo from "../ContentInfo/ContentInfo";
-const CardComponent = () => {
+import { StyledCardContainer } from "./CardComponent.styles";
+type Props = {
+	userState: string;
+	text: string;
+	labelText: string;
+	contentParagraph: string;
+};
+
+const CardComponent = ({
+	userState = "up",
+	text = "HEADER",
+	labelText = "LABEL",
+	contentParagraph = "Lorem ipsum dolor sit amet consectetur. Tortor libero sed nunc ullamcorper. Vulputate sit urna vestibulum fringilla.",
+}: Props) => {
+	const [user, setUser] = useState<string>("");
+
+	useEffect(() => {
+		if (userState === "up") {
+			setUser("up");
+		} else if (userState === "down") {
+			setUser("down");
+		}
+	}, [userState]);
 	return (
-		<div>
-			<GraphComponent userState={"up"} />
+		<StyledCardContainer key={user}>
+			<GraphComponent userState={user} />
 			<ContentInfo
-				text={"CARD HEADER"}
-				userState={"up"}
-				labelText="LABEL"
-				contentParagraph="Lorem ipsum dolor sit amet consectetur. Tortor libero sed nunc ullamcorper. Vulputate sit urna vestibulum fringilla."
+				text={text}
+				userState={userState}
+				labelText={labelText}
+				contentParagraph={contentParagraph}
 			/>
-		</div>
+		</StyledCardContainer>
 	);
 };
 

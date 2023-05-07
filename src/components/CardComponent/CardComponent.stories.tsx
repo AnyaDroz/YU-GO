@@ -6,7 +6,7 @@ const meta: Meta = {
 	title: "Example/Card Component",
 	component: CardComponent,
 	argTypes: {
-		state: {
+		userState: {
 			options: ["up", "down"],
 			control: { type: "radio" },
 		},
