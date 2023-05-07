@@ -15,7 +15,7 @@ const getTheme = (themeName) => {
 
 const withThemeProvider = (Story, context) => {
 	const theme = getTheme(context.globals.theme);
-	
+
 	return (
 		<ThemeProvider theme={theme}>
 			<Story />
@@ -35,6 +35,16 @@ const preview: Preview = {
 				dynamicTitle: true,
 			},
 		},
+		// state: {
+		// 	description: "Global theme for components",
+		// 	defaultValue: "Up",
+		// 	toolbar: {
+		// 		title: "user",
+		// 		icon: "circlehollow",
+		// 		items: ["up", "down"],
+		// 		dynamicTitle: true,
+		// 	},
+		// },
 	},
 	decorators: [withThemeProvider],
 };

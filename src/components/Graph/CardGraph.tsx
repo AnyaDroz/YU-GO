@@ -14,7 +14,6 @@ const dataUp = [
 class CardGraph extends Component<{}, { options: object; series: any }> {
 	constructor(props: any) {
 		super(props);
-
 		this.state = {
 			options: {
 				yaxis: {
@@ -121,11 +120,17 @@ class CardGraph extends Component<{}, { options: object; series: any }> {
 			series: [
 				{
 					name: "series-1",
-					data: props.state === "up" ? dataUp : dataDown,
+					data: props.user === "up" ? dataUp : dataDown,
 				},
 			],
 		};
 	}
+
+	// componentWillReceiveProps(nextProps: Readonly<any>, nextContext: any): void {
+	// 	if (nextProps.state !== this.state.state) {
+	// 		this.setState({ state: nextProps.state });
+	// 	}
+	// }
 
 	render() {
 		return (

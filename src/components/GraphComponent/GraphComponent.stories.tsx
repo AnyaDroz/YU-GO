@@ -6,7 +6,7 @@ const meta: Meta = {
 	title: "Example/Graph Component",
 	component: GraphComponent,
 	argTypes: {
-		state: {
+		userState: {
 			options: ["up", "down"],
 			control: { type: "radio" },
 		},
@@ -19,6 +19,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
 	args: {
-		state: "down",
+		userState: "up",
 	},
 };
