@@ -1,28 +1,27 @@
 import { create } from "@storybook/theming/create";
 import logoUrl from "./logo.svg";
+
 export default create({
 	base: "light",
 	// Typography
 	fontBase: '"Open Sans", sans-serif',
 	fontCode: "monospace",
-
-	brandTitle: "",
+	brandTitle: "YU-GO",
 	brandUrl: "",
 	brandImage: logoUrl,
 	brandTarget: "_self",
 
-	//
-	colorPrimary: "#3A10E5",
-	colorSecondary: "#585C6D",
+	colorPrimary: "#1C1A6B",
+	colorSecondary: "#84CBF2",
 
 	// UI
-	appBg: "#ffffff",
+	appBg: "#F2F5F5",
 	appContentBg: "#ffffff",
 	appBorderColor: "#585C6D",
 	appBorderRadius: 4,
 
 	// Text colors
-	textColor: "#10162F",
+	textColor: "#1C1A6B",
 	textInverseColor: "#ffffff",
 
 	// Toolbar default and active colors

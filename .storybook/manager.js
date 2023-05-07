@@ -1,6 +1,6 @@
 import { addons } from "@storybook/manager-api";
-import YugoTheme from "./YugoTheme";
+import yourTheme from "./YourTheme";
 
 addons.setConfig({
-	theme: YugoTheme,
+	theme: yourTheme,
 });
