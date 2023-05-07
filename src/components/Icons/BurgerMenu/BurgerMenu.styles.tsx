@@ -9,7 +9,8 @@ export const StyledPath = styled.path`
 	fill-rule: evenodd;
 	clip-rule: evenodd;
 	d: path(
-		"M 23 6 H 14 V 8 H 19.7547 L 12.9618 15.5476 L 7 9.58581 L 1.29289 15.2929 L 2.70711 16.7071 L 7 12.4142 L 13.0382 18.4524 L 21 9.60599 V 15 H 23 V 6 Z"
+		"M 4 15 H 20 V 13 H 4 V 15 Z M 4 19 H 20 V 17 H 4 V 19 Z M 4 11 H 20 V 9 H 4 V 11 Z M 4 5 V 7 H 20 V 5 H 4 Z"
 	);
+
 	fill: ${(props) => props.theme.colourIconFill};
 `;

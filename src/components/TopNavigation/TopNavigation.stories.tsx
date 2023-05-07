@@ -1,16 +1,11 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import CardHeader from "./CardHeader";
+import TopNavigation from "./TopNavigation";
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta: Meta = {
-	title: "Example/Card Header",
-	component: CardHeader,
-	argTypes: {
-		userState: {
-			options: ["up", "down"],
-			control: { type: "radio" },
-		},
-	},
+	title: "Example/Top Navigation",
+	component: TopNavigation,
+	argTypes: {},
 	tags: ["autodocs"],
 };
 

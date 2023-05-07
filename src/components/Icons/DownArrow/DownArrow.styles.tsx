@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const StyledSvg = styled.svg`
-    width: 24px;
+	width: 24px;
 	height: 24px;
-	xmlns: http://www.w3.org/2000/svg;
-    `;
+`;
 
 export const StyledPath = styled.path`
 	fill-rule: evenodd;

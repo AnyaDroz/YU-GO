@@ -15,10 +15,6 @@ export const StyledCardHeaderContainer = styled.div`
 	gap: 10px;
 `;
 
-type Props = {
-	fill: string;
-};
-
 export const StyledIcon = styled.div`
 	display: flex;
 	align-items: center;
