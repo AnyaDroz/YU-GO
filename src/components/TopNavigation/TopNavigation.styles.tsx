@@ -6,7 +6,7 @@ export const StyledNavigationContainer = styled.div`
 	align-items: center;
 	gap: 10px;
 	height: 56px;
-	width: 375px;
+	width: 351px;
 	justify-content: space-between;
 	padding-left: 12px;
 	padding-right: 12px;

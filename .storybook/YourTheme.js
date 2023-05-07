@@ -9,7 +9,6 @@ export default create({
 	brandUrl: "",
 	brandImage: "./logo.svg",
 	brandTarget: "_self",
-
 	colorPrimary: "#1C1A6B",
 	colorSecondary: "#84CBF2",
 });

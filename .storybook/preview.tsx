@@ -27,7 +27,7 @@ const preview: Preview = {
 	globalTypes: {
 		theme: {
 			description: "Global theme for components",
-			defaultValue: "light",
+			defaultValue: "Light",
 			toolbar: {
 				title: "Theme",
 				icon: "circlehollow",
