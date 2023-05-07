@@ -9,14 +9,19 @@ import {
 type Props = {
 	labelText: string;
 	text: string;
-	state: string;
+	userState: string;
 	contentParagraph: string;
 };
-const ContentInfo = ({ labelText, text, state, contentParagraph }: Props) => {
+const ContentInfo = ({
+	labelText,
+	text,
+	userState,
+	contentParagraph,
+}: Props) => {
 	return (
 		<StyledContentInfoContainer>
 			<StyledContentLabel>{labelText}</StyledContentLabel>
-			<CardHeader text={text} state={state} />
+			<CardHeader text={text} userState={userState} />
 			<StyledCardParagraph>{contentParagraph}</StyledCardParagraph>
 		</StyledContentInfoContainer>
 	);

@@ -8,15 +8,15 @@ import DownArrow from "../Icons/DownArrow/DownArrow";
 import UpArrow from "../Icons/UpArrow/UpArrow";
 type Props = {
 	text: string;
-	state: string;
+	userState: string;
 };
 
-const CardHeader = ({ text, state }: Props) => {
+const CardHeader = ({ text, userState }: Props) => {
 	return (
 		<div>
 			<StyledCardHeaderContainer>
 				<StyledTextHeader>{text}</StyledTextHeader>
-				{state === "up" ? <UpArrow /> : <DownArrow />}
+				{userState === "up" ? <UpArrow /> : <DownArrow />}
 			</StyledCardHeaderContainer>
 		</div>
 	);
