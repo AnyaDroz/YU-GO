@@ -5,6 +5,7 @@ export const StyledContentInfoContainer = styled.div`
 	width: 350px;
 `;
 export const StyledContentLabel = styled.div`
+	margin-top: 16px;
 	margin-bottom: 2px;
 	font-family: ${(props) => props.theme.textLabelTypographyFontFamily};
 	font-size: ${(props) => props.theme.textLabelTypographyFontSize};
